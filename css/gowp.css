@@ -1,0 +1,288 @@
+button{
+    color: transparent;
+    border-color: transparent
+    
+}
+.dropdown-menu :hover{
+background-color:rgb(196, 124, 29);;
+}
+.dropdown-menu{
+    position: relative;
+    
+  
+}
+.dropdown-menu.a{
+    position: relative;
+    padding: 12px 16px;
+    
+  
+}
+.dropdown-item{
+ 
+    position: relative;
+    display:inline;
+   min-width: 100px;
+    
+}
+
+/* reset */
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+/* 
+p{
+  
+    margin: 0.73rem;
+} */
+
+a{
+    text-decoration: none;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.1;
+    
+}
+
+/* utility class */
+
+.container{
+    max-width: 1100px;
+    margin: auto;
+    padding: 0 2rem;
+    overflow: hidden;
+}
+
+.py-1{ padding: 2rem 0;}
+
+.t-primary{
+    color: whitesmoke;
+}
+
+.l-head{
+    line-height: 1.1;
+    margin-bottom: 0.75rem;
+ font-size: 2rem;
+}
+
+.l-text{
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    padding: 0 0.75rem; 
+
+}
+.bg-pimary{
+    background-color: rgb(196, 124, 29);
+    color: white;
+}
+.download {
+    align-items: flex-end;
+    
+}
+
+.bg-light{
+    background-color: white;
+}
+
+
+.btn-dark{
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+.m-heading{
+    font-size: 2rem;
+    margin-bottom: 1rem;
+color: white;
+}
+
+
+.p-2{
+    padding: 1rem;
+color: white;
+}
+/* navbar */
+
+
+
+
+.navbar .navlogo{
+    font-size: 1.3rem;
+}
+
+.navbar{
+    /*background-color: white;*/
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+background:url(../images/blue8.jpg);
+    opacity:;
+}
+
+.navbar-nav{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+}
+
+.navbar .navbar-nav li a{
+    padding: 0.73rem;
+    color: white;
+    margin: 0 0.25rem;
+    
+}
+
+
+.navbar .navbar-nav li a:hover{
+    background-color:transparent;
+    border-radius: 5px;
+}
+
+ .nav-item{
+     padding: .5rem;
+ }
+
+
+/* showcase */
+.showcase{
+    background:url(../images/blue8.jpg)no-repeat center center/cover;
+    height: 100vh;
+    color: white;
+ display: flex;
+    flex-direction: column;;
+    justify-content: center;
+    text-align: center;
+    align-items: center ;
+    
+}
+.showcas{
+    background:url(../images/blue8.jpg)no-repeat center center/cover;
+    height: 100vh;
+    color: white;
+  display: flex;
+    flex-direction: column;;
+    justify-content: center;
+    text-align: center;
+    align-items: center ;
+    
+}
+
+.showcase .show-container{
+    display: flex;
+    flex-direction: column;;
+    justify-content: center;
+    text-align: center;
+    align-items: center ;
+    height: 100%;
+    width: 100%;
+    padding: 0 2rem;
+    /* overlay to amke the backgound image transparent */
+   position: absolute;
+   top: 100px;
+   right: 0;
+   left: 0;
+   bottom:-20 px;
+   background-color: rgba(0, 0, 0, 0.4);
+   /*background:  url(../images/po7.png) no-repeat center center/cover;*/
+    
+   
+}
+
+
+.showcase a{
+    color:  black;
+    display: inline-block;
+    padding: 0.7rem 1rem;
+    background-color:whitesmoke;
+    border-radius: 5px;
+     transition: background 0.5s ease-in-out;
+}
+.showcase: a{
+     transition: background 0.5s ease-in-out;
+}
+
+.showcase a:hover{
+    background-color:gainsboro;
+     color:black;  
+}
+.showcas a{
+    color:  black;
+    display: inline-block;
+    padding: 0.7rem 1rem;
+    background-color:whitesmoke;
+    border-radius: 5px;
+     transition: background 0.5s ease-in-out;
+}
+.showcas: a{
+     transition: background 0.5s ease-in-out;
+}
+
+.showcas a:hover{
+    background-color:gainsboro;
+     color:black;  
+}
+
+
+  
+        
+        .container{
+            align-content: center;
+        }
+        
+         .itemz{
+            padding: 1rem;
+           
+            background:url(../images/blue8.jpg);
+            font-size: 1.3rem;
+            font-weight: lighter;
+            text-align: center;
+            margin: 0.4rem ; 
+             text-align: center;
+     padding: 2rem 0;
+     color:  whitesmoke;
+     }
+        .item:hover{
+            box-shadow: 10px 10px 40px  rgb(196, 124, 29);
+        }
+         .ite img{
+            
+             animation: jump 2s linear infinite;
+             height:25rem;
+             width:10rem;
+         }
+          .itemz a{
+              color:black;
+              background-color:white;
+              border-radius:10px;
+              padding: 0.5rem;
+              margin: 0.2rem
+          }
+         .itemz img{
+            height:25rem;
+             width:10rem;
+             animation: jump 2s linear infinite;
+         }
+         @keyframes jump{
+             0%{
+                 transform: translateY(0px)
+             }
+              50%{
+                 transform: translateY(10px)
+             }
+              100%{
+                 transform: translateY(0px)
+             }
+         }
+
+ 
+
+
